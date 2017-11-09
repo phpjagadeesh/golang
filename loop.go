@@ -5,7 +5,7 @@ package main
 import "fmt"
 
 func main() {
-    for i:=1; i<10;
+    for i := 1; i < 10;
     i++ {
         fmt.Println("Incement ", i);
     }
@@ -13,14 +13,14 @@ func main() {
     // init and post statement are option
     // But conditional are manadetory
     j := 1;      
-    for ; j<10 ; {
+    for ; j < 10 ; {
       fmt.Println(j)
       j  = j + 1 
     }
 
     // Bye Bye to 'while'
     k := 10;
-    for k<=20 {
+    for k <= 20 {
         fmt.Println(k)
         k++
     }
