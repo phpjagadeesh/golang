@@ -1,16 +1,16 @@
 package main
 
 import (
-  "fmt"
-  "bufio"
-  "os"
+	"bufio"
+	"fmt"
+	"os"
 )
 
 func main() {
-  scaner := bufio.NewScanner(os.Stdin)
-  fmt.Println(scaner)
+	scaner := bufio.NewScanner(os.Stdin)
+	fmt.Println(scaner)
 
-  for scaner.Scan() {
-    fmt.Println(scaner.Text())
-  }
+	for scaner.Scan() {
+		fmt.Println(scaner.Text())
+	}
 }
